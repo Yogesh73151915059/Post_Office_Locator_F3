@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nearby Post Offices Details</title>
+    <link href="./postOffice.css" rel="stylesheet">
+    
+</head>
+<body>
+    <main>
+        <div id="ipAddressDiv">
+            <span id="ipAddressHeading">IP Address : </span>
+            <span id="ipAddressVal"></span>
+        </div>
+        <div id="addressDetailsContainer">
+              
+        </div>
+        <div id="mapContainer">
+            <p id="myCurrLocHeading">Your Current Location</p>
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.67890!2d-122.123456!3d45.678901!4d-123.123456!5e0!6s%2F%2Fwww.google.com%2Fmaps%2Fplace%2F45.678901%2C-123.123456!3m2!1s0x0%3A0x0!5sMy+Location!7e2!8shttps%3A%2F%2Fwww.google.com%2Fmaps%2Fplace%2F45.678901%2C-123.123456!3m2!1s0x0%3A0x0!5sMy+Location!7e2&zoom=10" ></iframe>
+        </div>
+        <div id="moreInfoContainer">
+            <p id="moreInfoHeading">More Information About You</p>
+            <div id="moreInfoContent">
+
+            </div>
+
+        </div>
+       
+        <div id="nearByPostOfficesContainer">
+            <p id="nearPostOfficeHeading">Post Offices Near You</p>
+            <div id="searchContainer">
+                <img id="search-icon" src="./Images/search_icon.svg" alt="search icon">
+                <input id="searchInput" placeholder="Search by Name">
+            </div>
+            <div id="postOfficesDetailsContainer">
+
+            </div>
+        </div>
+
+    </main>
+    <script src="./postOffices.js"></script>
+</body>
+</html>

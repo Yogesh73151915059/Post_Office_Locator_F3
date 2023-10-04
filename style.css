@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mulish&family=Poppins&display=swap');
+body{
+    font-family: poppins, sans-serif !important;
+}
+#main-page-container{
+    display: flex;
+    justify-content: center;
+    gap:0px;
+    box-sizing: border-box;
+    height: 100vh;
+}
+.main-page-left-container{
+    background-color: black;
+    width: 100%;
+    color: white;
+    padding-top: 30px;
+    padding-left: 5%;
+}
+.main-page-right-container{
+     background-color: #575A85;
+     width: 100%;
+     color: #B8BCCC;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+#undraw-messenger{
+    width: 380px;
+    height: 370px;
+    display: block;
+    margin: 10px auto;
+}
+#page-info{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 70%;
+    margin: 40px 0px 80px 0px;
+}
+#page-heading{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #575A85;  
+}
+#IpAddressContent, #IpAddressValue{
+    font-size: 26px;
+    font-weight: 500;
+}
+#IpAddressValue{
+   color: white;
+}
+
+#startBtn{
+    font-size: 22px;
+    font-weight: 400;
+    color:#B8BCCC;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+#ipDetailDiv{
+    padding: 0px 20px;
+}
+@media (max-width: 700px){
+    body{
+        font-size: 16px;
+    }
+    #undraw-messenger{
+        width: 100px;
+    }
+    #startBtn{
+        padding: 5px;
+        font-size: 16px;
+    }
+    #main-page-container{
+        display: flex;
+        justify-content: center;
+        gap:0px;
+        box-sizing: border-box;
+        height: 100%;
+    }
+    .main-page-left-container{
+        background-color: black;
+        width: 100%;
+        color: white;
+        padding-top: 30px;
+        padding-left: 5%;
+    }
+    #page-heading{
+        font-size: 24px;
+        color: #575A85;  
+    }
+    #page-info{
+        font-size: 16px;
+        font-weight: 400;
+        width: 100%;
+        margin: 20px 0px 20px 0px;
+    }
+    #IpAddressContent, #IpAddressValue{
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
